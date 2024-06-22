@@ -1,0 +1,35 @@
+.container {    
+   display: flex;
+   flex-direction: column;
+   height: 15rem; 
+   justify-content: space-around;
+}
+
+.adviceNumber{
+    font-size: 1.5rem;
+    color: #4C5454;
+}
+
+.advice{
+    font-size: 3rem;
+    color: #0E7C7B;
+    text-align: center;
+    width: 80%;
+}
+
+.generateButton{
+    cursor: pointer;
+    position: fixed;
+    bottom: 20%;
+    height: 80px;
+    width: 80px;
+    background-color: #FF9505;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.generateButton img{
+    height: 3rem;
+    width: 3rem;
+}
