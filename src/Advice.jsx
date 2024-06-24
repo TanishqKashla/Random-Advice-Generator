@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { useState } from 'react';
 import "./Advice.css"
+import diceIcon from '../src/assets/dice.png';
 
 export default function Advice(){
 
@@ -28,7 +29,7 @@ export default function Advice(){
                 "{advice}"
             </div>
             <div className='generateButton' onClick={fetchAdvice}>
-                <img src="assets/dice.png" alt="dice icon" />
+                <img src={diceIcon} alt="dice icon" />
             </div>
         </div>
     )
