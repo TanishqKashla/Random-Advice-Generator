@@ -28,7 +28,7 @@ export default function Advice(){
                 "{advice}"
             </div>
             <div className='generateButton' onClick={fetchAdvice}>
-                <img src="./src/assets/dice.png" alt="dice roll icon" />
+                <img src="src/assets/dice.png" alt="dice roll icon" />
             </div>
         </div>
     )
